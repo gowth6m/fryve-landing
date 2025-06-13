@@ -49,8 +49,8 @@ const Login = () => {
 
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 mx-auto mb-4 rounded-2xl gradient-fryve flex items-center justify-center">
-            <span className="text-white font-bold text-3xl">F</span>
+          <div className="w-16 h-16 mx-auto mb-4 rounded-2xl flex items-center justify-center">
+            <img src="/logo.svg" alt="Fryve Logo" className="w-10 h-10" />
           </div>
           <h1 className="text-3xl font-bold text-gradient">Welcome Back</h1>
           <p className="text-gray-600">Sign in to your Fryve account</p>
